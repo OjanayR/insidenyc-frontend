@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+/*import Footer from './components/Footer/Footer';*/
 
 import HomePage from './pages/HomePage';
 import DashboardPage from './pages/DashboardPage';
@@ -53,7 +53,7 @@ function App(props) {
             <LoginPage handleSignupOrLogin={handleSignupOrLogin} />
           } />
         </Switch>
-      <Footer />
+      
     </div>
   );
 }

@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
 import './Header.scss';
+import BlackAndWhiteBanner from "../../images";
 
 export default function Header(props) {
     return (
         <header className="Header">
+            <img src={BlackAndWhiteBander.png} alt ="BlackAndWhiteBander" />
             <Link to="/">
                 <h1>Inside NYC</h1>
             </Link>
