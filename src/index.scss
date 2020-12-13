@@ -14,3 +14,18 @@ body{
     color: $mainBlack;
     font-family: 'Cutive Mono', monospace;
 }
+
+code {
+    font-family: 'Cutive Mono', monospace;
+}
+
+.Page {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Page > h1 {
+    margin-bottom: 50px;
+  }
