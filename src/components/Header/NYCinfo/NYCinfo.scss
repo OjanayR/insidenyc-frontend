@@ -1,0 +1,52 @@
+@import "../../InsideNYC.scss";
+
+.NYCinfo{
+    background: grey;
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+    img{
+        width: 100;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        display: block;
+    }
+}
+
+.img-container {
+    position: relative;
+}
+
+.close-btn{
+    position: absolute;
+    display: block;
+    top: 5%;
+    right: rgb(39, 39, 116);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.NYCinfo{
+    padding: 1rem 0.5rem;
+
+    h3 { 
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgba(0, 0, 0, 0.719)
+    }
+
+    h4 {
+        text-transform: capitalize;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgba(0, 0, 0, 0.719);
+        margin: 0.2rem 0 06rem 0;
+    }
+
+    h5 {
+        text-transform: capitalize;
+        span{
+            color: rgb(39, 39, 116);
+            margin: 0.5rem;
+            font-size: 1.2rem;
+       }
+    }
+}

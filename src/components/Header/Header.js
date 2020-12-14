@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import './Header.scss';
-import BlackAndWhiteBanner from "../../images";
+/*import { images } from "../../images";*/
 
 export default function Header(props) {
     return (
         <header className="Header">
-            <img src={BlackAndWhiteBander.png} alt ="BlackAndWhiteBander" />
+    
             <Link to="/">
                 <h1>Inside NYC</h1>
             </Link>
@@ -15,7 +15,7 @@ export default function Header(props) {
                         props.user ?
                         <>
                             <li><Link to="" onClick={props.handleLogout}>Logout</Link></li>
-                            <li><Link to="/dashboard">Dashboard</Link></li>
+                            <li><Link to="/insidenyc">InsideNYC</Link></li>
                         </>
                         :
                         <>

@@ -4,9 +4,10 @@ import Header from './components/Header/Header';
 /*import Footer from './components/Footer/Footer';*/
 
 import HomePage from './pages/HomePage';
-import DashboardPage from './pages/DashboardPage';
+import InsideNYCPage from './pages/InsideNYCPage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
+
 
 import { Switch, Route, withRouter, Redirect } from 'react-router-dom';
 
@@ -24,7 +25,7 @@ function App(props) {
     // place user into state using the setter function
     setUserState({ user: getUser() });
     // programmatically route user to dashboard
-    props.history.push('/dashboard');
+    props.history.push('/insidenyc');
   }
 
   function handleLogout() {
@@ -40,9 +41,9 @@ function App(props) {
           <Route exact path="/" render={ props => 
             <HomePage />
           } />
-          <Route exact path="/dashboard" render={ props => 
+          <Route exact path="/insidenyc" render={ props => 
             getUser() ?
-              <DashboardPage />
+              <InsideNYCPage />
               :
               <Redirect to="/login" />
           } />
