@@ -1,4 +1,4 @@
-export const NYCinfoData = [
+/*export default  [
     {
         id: 1,
         city: "Brooklyn, NY",
@@ -139,15 +139,5 @@ export const NYCinfoData = [
         name: "Governors Island",
         info: "Governors Island is a 172-acre island (!) in New York Harbor, within the New York City borough of Manhattan."
     }
-    
-
-
-
-
-
-
-
-
-
-
 ]
+*/

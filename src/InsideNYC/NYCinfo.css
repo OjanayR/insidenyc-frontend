@@ -1,11 +1,11 @@
-@import "../../InsideNYC.scss";
+@import "../../InsideNYC.css";
 
 .NYCinfo{
     background: grey;
     border-radius: 0.8rem;
     margin: 1rem 0;
-    img{
-        width: 100;
+    img {
+        width: 100%;
         border-top-left-radius: 0.8rem;
         border-top-right-radius: 0.8rem;
         display: block;
@@ -43,7 +43,7 @@
 
     h5 {
         text-transform: capitalize;
-        span{
+        span {
             color: rgb(39, 39, 116);
             margin: 0.5rem;
             font-size: 1.2rem;

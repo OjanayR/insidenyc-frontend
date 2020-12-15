@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+$mainBlack: #222;
+$mainGreen: #82b340;
+$mainWhite: #fff;
+$mainGrey: #ececec;
+*/
+
+body{
+    background: #fff;
+    color: #222;
+    font-family: 'Cutive Mono', monospace;
+}
+
+code {
+    font-family: 'Cutive Mono', monospace;
+}
+
+.Page {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Page > h1 {
+    margin-bottom: 50px;
+  }
+
+  .InsideNYCPages{
+    width: 70vw;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+@media screen and (min-width: 768px){
+    .InsideNYCPages{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5rem;
+    }
+}
+@media screen and (min-width: 992px){
+    .InsideNYCPages{
+        width: 8vw;
+        grid-template-columns: 1fr 1fr 1fr;
+       
+    }
+}
+@media screen and (min-width: 1140px){
+    .InsideNYCPages{
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+}

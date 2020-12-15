@@ -8,17 +8,23 @@ import InsideNYCPage from './pages/InsideNYCPage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 
-
 import { Switch, Route, withRouter, Redirect } from 'react-router-dom';
 
 import { getUser, logout } from './services/userService';
 
-import './App.scss';
+import './App.css';
+
 
 function App(props) {
   /* component state */
   const [ userState, setUserState ] = useState({ user: getUser()});
-  
+  /*const [nycinfo, setNYCInfo] = useState([])
+  const removeNYCinfo = (id) => {
+    const newNYCinfo = nycinfo.filter((nycinfo) => nycinfo.id !== id)
+    setNYCInfo(newNYCinfo)
+  }
+  */
+
   /* helper functions */
 
   function handleSignupOrLogin() {
@@ -62,12 +68,3 @@ function App(props) {
 
 export default withRouter(App);
 
-/*
-class App extends Component {
-  render()  {
-    return <h1>Hello From App</h1>
-  }
-}
-
-export default App;
-*/
