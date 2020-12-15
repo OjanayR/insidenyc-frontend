@@ -3,12 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*
-$mainBlack: #222;
-$mainGreen: #82b340;
-$mainWhite: #fff;
-$mainGrey: #ececec;
-*/
 
 body{
     background: #fff;
@@ -30,12 +24,32 @@ code {
   .Page > h1 {
     margin-bottom: 50px;
   }
+  
 
   .InsideNYCPages{
     width: 70vw;
     margin: 0 auto;
     padding: 2rem 0;
 }
+
+img {
+    float: left;
+    width:  600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+h1 {
+    text-indent: 1px; 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+
 
 @media screen and (min-width: 768px){
     .InsideNYCPages{
@@ -44,16 +58,26 @@ code {
         grid-column-gap: 1.5rem;
     }
 }
-@media screen and (min-width: 992px){
-    .InsideNYCPages{
-        width: 8vw;
-        grid-template-columns: 1fr 1fr 1fr;
-       
-    }
+
+p{ 
+    text-indent: 1px; 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+   
 }
-@media screen and (min-width: 1140px){
-    .InsideNYCPages{
-        grid-template-columns: repeat(4, 1fr);
-        
-    }
+
+ul{ 
+    list-style-type: circle;
+    margin-left: 50px;
+    float: left;
+    width: 400px;
+    
+}
+
+li span {
+    font-weight: bold;
+    
 }
