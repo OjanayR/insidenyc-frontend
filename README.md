@@ -25,3 +25,6 @@
 ![InsideNYC_Dashboard](https://user-images.githubusercontent.com/69225985/102162207-c5b4c480-3e56-11eb-8308-621a75be84c0.png)
 
 ![InsideNYC_Dashboard2](https://user-images.githubusercontent.com/69225985/102162232-d06f5980-3e56-11eb-81a9-bbb78de5a506.png)
+
+## Inside NYC link
+https://insidenyc.netlify.app/
